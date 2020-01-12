@@ -1,12 +1,12 @@
 def Decorator(f):
-    def wrapper():
+    def wrapper(arg):
         print ('befor')
-        f()
+        f(arg)
         print ('after')
     return wrapper
 
 @Decorator                # либо: Function = Decorator(Function)
-def Function():
-    print ('function')
+def Function(x):
+    print ('function', + x)
 
-Function()                # декорированая функция
+Function(23)                # декорированая функция
