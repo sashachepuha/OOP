@@ -1,3 +1,5 @@
+# ПРИМЕР ИНКАПСУЛЯЦИИ
+
 class divider (object):
     def __init__(self):
         self.__div = 10

@@ -1,3 +1,5 @@
+# ПРИМЕР НАСЛЕДОВАНИЯ
+
 class PC (object):
     def __init__(self):
         self.model =''
